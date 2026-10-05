@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 360px;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.message-error {
+    background: #fde8e8;
+    color: #9b1c1c;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.message-success {
+    background: #e7f8ee;
+    color: #15803d;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+th {
+    background: #f9fafb;
+}
+
+.wide-card {
+    width: 680px;
+}
+
+a {
+    color: #2563eb;
+}
